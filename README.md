@@ -1,3 +1,7 @@
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Mrudula1013/LesionAware-MangoNet)
+
+[![DOI](https://zenodo.org/badge/1457560490.svg)](https://doi.org/10.5281/zenodo.24217000)
+
 # LesionAware MangoNet
 
 **LesionAware MangoNet: A Lightweight CNN–Transformer Framework for Robust Multi-Class Mango Leaf Disease Diagnosis with Cross-Dataset Generalization**
