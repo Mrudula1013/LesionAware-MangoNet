@@ -761,7 +761,7 @@ The executed tests cover:
 - Evaluation metrics and calibration.
 - Image corruption generation.
 - Grad-CAM and Score-CAM.
-- Synthetic training and evaluation integration.
+
 
 Run the test suite using:
 
