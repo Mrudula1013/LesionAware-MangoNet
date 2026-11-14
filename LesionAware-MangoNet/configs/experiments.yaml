@@ -1,0 +1,12 @@
+transfers:
+  - {source: MangoLeafBD, target: MLD24}
+  - {source: MLD24, target: MangoLeafBD}
+  - {source: MangoLeafBD, target: MLD-Field}
+  - {source: MLD24, target: MLD-Field}
+corruptions:
+  gaussian_noise: [0.04, 0.06, 0.08, 0.10, 0.12]
+  motion_blur: [3, 5, 7, 9, 11]
+  brightness_shift: [0.1, 0.2, 0.3, 0.4, 0.5]
+  jpeg: [80, 60, 40, 25, 15]
+  occlusion: [0.05, 0.10, 0.15, 0.20, 0.25]
+tta_views: [identity, hflip, vflip, center_crop_90, brightness_110]

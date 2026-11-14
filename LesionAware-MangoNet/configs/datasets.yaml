@@ -1,0 +1,11 @@
+image_size: 224
+quality_min_side: 64
+blur_variance_review_threshold: 50.0
+phash_hamming_threshold: 6
+split_ratios: [0.70, 0.15, 0.15]
+mendeley:
+  MangoLeafBD: {id: hxsnvwty3r, version: 1, expected_images: 4000}
+  MLD24: {id: 6dvpywm2m2, version: null, expected_images: 6400}
+  MLD-Field: {id: 7ghdbftp54, version: null, expected_images: 2336}
+# Only source TRAIN may be used for dataset statistics and PTQ calibration.
+# MLD-Field is always a strict holdout.

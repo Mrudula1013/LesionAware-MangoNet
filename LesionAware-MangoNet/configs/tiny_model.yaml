@@ -1,0 +1,16 @@
+# For fast unit tests only. NOT for publication/benchmark claims.
+image_size: 224
+num_classes: 8
+cnn_channels: [8, 12, 16, 20]
+multiscale_branch_channels: 8
+embed_dim: 64
+transformer_layers: 1
+attention_heads: 2
+ffn_dim: 128
+transformer_dropout: 0.1
+classifier_dropout: 0.3
+channel_attention: true
+spatial_attention: true
+lesion_attention: true
+use_transformer: true
+fusion_weight: 0.5

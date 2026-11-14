@@ -1,0 +1,17 @@
+epochs: 100
+batch_size: 32
+num_workers: 4
+learning_rate: 0.0003
+min_learning_rate: 0.000001
+weight_decay: 0.05
+warmup_epochs: 5
+early_stopping_patience: 15
+focal_gamma: 2.0
+lambda_ce: 1.0
+lambda_focal: 0.5
+lambda_entropy: 0.05
+lambda_consistency: 0.5
+loss_ramp_epochs: 10
+seeds: [0, 1, 2, 3, 4]
+split_seed: 42
+mixed_precision: true
