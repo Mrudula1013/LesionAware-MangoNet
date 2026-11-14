@@ -134,7 +134,7 @@ CPU execution is supported, although full experiments may take considerably long
 ### Environment Setup
 
 ```bash
-git clone https://github.com/Mrudula1013/LesionAware-MangoNet.git
+git clone https://github.com/Mrudula1013/LesionAware-MangoNet
 
 cd LesionAware-MangoNet
 
